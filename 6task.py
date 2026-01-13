@@ -7,3 +7,7 @@ def all_eq(dlist):
         dresult.append(dstr + "_" * (dmax_len - len(dstr)))
     
     return dresult
+
+
+dtest = ["cat", "elephant", "dog"]
+print(all_eq(dtest))
